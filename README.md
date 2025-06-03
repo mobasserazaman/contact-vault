@@ -37,10 +37,10 @@ Connect to PostgreSQL and create the contacts table:
   birthday DATE
 );
 
-Build the project with Maven:
+### Build the project with Maven
 mvn clean package
 
-Run the application:
+### Run the application
 java -jar target/contact-vault-1.0-SNAPSHOT-jar-with-dependencies.jar
 
 
